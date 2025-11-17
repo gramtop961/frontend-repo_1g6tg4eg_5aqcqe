@@ -1,0 +1,85 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 212 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.70.128:3000/
+5:35:42 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:81:15: ERROR: Expected "}" but found ":"
+5:35:42 PM [vite] ✨ new dependencies optimized: lucide-react
+5:35:42 PM [vite] ✨ optimized dependencies changed. reloading
+5:35:43 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:81:15: ERROR: Expected "}" but found ":"
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+5:36:13 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:81:15: ERROR: Expected "}" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx:81:15
+  
+  Expected "}" but found ":"
+  79 |            <pre className="mt-3 h-40 bg-gray-900 text-green-300 text-xs rounded-lg p-3 overflow-auto">
+  80 |  {
+  81 |    "document_id": "BOM-2024-001",
+     |                 ^
+  82 |    "part_info": [
+  83 |      { "part": "AX-120", "qty": 40, "material": "Aluminium" },
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+5:36:31 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:81:15: ERROR: Expected "}" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx:81:15
+  
+  Expected "}" but found ":"
+  79 |            <pre className="mt-3 h-40 bg-gray-900 text-green-300 text-xs rounded-lg p-3 overflow-auto">
+  80 |  {
+  81 |    "document_id": "BOM-2024-001",
+     |                 ^
+  82 |    "part_info": [
+  83 |      { "part": "AX-120", "qty": 40, "material": "Aluminium" },
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+5:36:44 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Hero.jsx:81:15: ERROR: Expected "}" but found ":"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Hero.jsx:81:15
+  
+  Expected "}" but found ":"
+  79 |            <pre className="mt-3 h-40 bg-gray-900 text-green-300 text-xs rounded-lg p-3 overflow-auto">
+  80 |  {
+  81 |    "document_id": "BOM-2024-001",
+     |                 ^
+  82 |    "part_info": [
+  83 |      { "part": "AX-120", "qty": 40, "material": "Aluminium" },
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
